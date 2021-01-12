@@ -33,6 +33,8 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
+
+
     screen.blit(background, (0, 0))
     screen.blit(stage, (0, screen_height - stage_height))
 
